@@ -1,21 +1,13 @@
 class Node:
 
-    def __init__(self, dato, material, amount):
-        self.dato = dato
-        self.material = material
-        self.amount = amount
+    def __init__(self, data):
+        self.data = data
         self.left = None
         self.right = None
 
     # Get
-    def getDato(self):
-        return self.dato
-
-    def getMaterial(self):
-        return self.material
-
-    def getAmount(self):
-        return self.amount
+    def getData(self):
+        return self.data
 
     def getLeft(self):
         return self.left
@@ -24,14 +16,8 @@ class Node:
         return self.right
 
     # Set
-    def setDato(self, dato):
-        self.dato = dato
-
-    def setMaterial(self, material):
-        self.material = material
-
-    def setAmount(self, amount):
-        self.amount = amount
+    def setData(self, data):
+        self.data = data
 
     def setLeft(self, left):
         self.left = left
