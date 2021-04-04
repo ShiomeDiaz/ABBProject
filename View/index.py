@@ -3,13 +3,13 @@ from Model.node import *
 from Model.Mine import *
 
 
-cavern1 = Mine(20,'silver',100)
-cavern2 = Mine(80,'gold',100)
-cavern3 = Mine(90,'wood',100)
-cavern4 = Mine(50,'rock',100)
-cavern5 = Mine(20,'bronze',100)
-cavern6 = Mine(120,'silver',100)
-cavern7 = Mine(44,'rock',100)
+cavern1 = Mine(20, 'silver', 100)
+cavern2 = Mine(80, 'gold', 100)
+cavern3 = Mine(90, 'wood', 100)
+cavern4 = Mine(50, 'rock', 100)
+cavern5 = Mine(20, 'bronze', 100)
+cavern6 = Mine(120, 'silver', 100)
+cavern7 = Mine(44, 'rock', 100)
 
 nod1 = Node(cavern1)
 nod2 = Node(cavern2)
