@@ -30,7 +30,7 @@ class ABB:
                 return False
         return False
 
-    def inOrder(self, pivot, list):
+    def inOrder(self, pivot, list=[]):
         if pivot is not None:
             self.inOrder(pivot.getLeft(), list)
             list.append([pivot.getData().getRoute(), pivot.getData().getMaterial(), pivot.getData().getAmount()])

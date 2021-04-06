@@ -1,7 +1,7 @@
 from Controller.ABBController import *
 from Model.node import *
 from Model.Mine import *
-
+from Controller.animar import *
 
 cavern1 = Mine(20, 'silver', 100)
 cavern2 = Mine(80, 'gold', 100)
@@ -28,5 +28,6 @@ arbol.add(nod5)
 arbol.add(nod6)
 arbol.add(nod7)
 
-
-print("Inorder:", arbol.inOrder(nod1, []))
+la_animacion = animacion()
+la_animacion.ejecutar()
+print("Inorder:", arbol.inOrder(nod1))
